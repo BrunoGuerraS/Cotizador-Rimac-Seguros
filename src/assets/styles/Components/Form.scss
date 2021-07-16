@@ -1,0 +1,169 @@
+@import "../Variables.scss";
+
+main{
+    //position: relative;
+}
+
+.listD{
+    position: absolute;
+    width: 296px;
+    height: 56px;
+    left: 32px;
+    top: 404px;
+
+}
+
+select{
+    display: inline-block;
+    width: 78px;
+    height: 56px;
+    left: 16.11px;
+    border: 1.00694px solid #C5CBE0
+}
+
+
+
+
+.Name{
+    display: inline-block;
+    width: 217px;
+    height: 56px;
+    left: 16.11px;
+    border: 1.00694px solid #C5CBE0
+}
+
+.Name::placeholder{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: $color-Gray_3;
+    height: 25px;
+    padding-left: 20px;
+}
+
+
+.Formulario__title{
+    position: absolute;
+    width: 296px;
+    height: 32px;
+    left: 32px;
+    top: 348px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+
+    letter-spacing: -0.2px;
+
+    color: var(--color-Gray_1_Títulos);
+}
+
+
+.Phone {
+    position: absolute;
+    width: 296px;
+    height: 56px;
+    left: 32px;
+    top: 476px;
+    background: #FFFFFF;
+
+
+    border: 1px solid #C5CBE0;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+
+.Phone::placeholder{
+    position: absolute;
+    left: 16px;
+    right: 16px;
+    top: 16px;
+    bottom: 16px;
+
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: $color-Gray_3;
+}
+
+.Placa{
+    position: absolute;
+    width: 296px;
+    height: 56px;
+    left: 32px;
+    top: 548px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid #C5CBE0;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.Placa::placeholder{
+    position: absolute;
+    left: 16px;
+    right: 16px;
+    top: 16px;
+    bottom: 16px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: $color-Gray_3;
+}
+
+.Check{
+    
+    position: absolute;
+    width: 296px;
+    height: 20px;
+    left: 33px;
+    top: 628px;
+    display: flex;
+    
+}
+
+.Check label{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: $color-Gray_3;
+    padding-left: 10px;
+}
+
+.btn{
+    margin-bottom: 50px;
+    position: absolute;
+    width: 296px;
+    height: 56px;
+    left: 32px;
+    top: 700px;
+    border-radius: 8px;
+    background-color: $color-Red_1_Rimac;
+    border-color: $color-Red_1_Rimac;
+ 
+    color: white;
+    text-align: center;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+
+
+}

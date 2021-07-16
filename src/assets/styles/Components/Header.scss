@@ -1,0 +1,71 @@
+@import "../Variables.scss";
+
+.Flyer{
+    background-color: $color-Gray_7;
+    // position: absolute;
+    max-width: 425px;
+    height: 308px;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.Flyer__new{
+    position: absolute;
+    width: 46px;
+    height: 16px;
+    left: 32px;
+    top: 96px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 16px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+
+.Flyer__title{
+    position: absolute;
+    width: 200px;
+    height: 72px;
+    left: 32px;
+    top: 120px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -0.6px;
+    color: $color-Gray_1_Titulos;
+
+}
+
+.Flyer__title strong{
+    color: $color-Red_1_Rimac;
+}
+
+.Flyer__subt{
+    position: absolute;
+    width: 183px;
+    height: 48px;
+    left: 33px;
+    top: 204px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: $color-Gray_2_Paragrap;
+
+}
+
+
+.Header__girl{
+    position: absolute;
+    width: 112px;
+    height: 276px;
+    right: 5px;
+    top: 56px;
+}
+

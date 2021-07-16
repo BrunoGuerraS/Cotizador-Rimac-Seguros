@@ -1,0 +1,31 @@
+@import "../Variables.scss";
+
+.Header__contacto{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 90px;
+    height: 24px;
+    left: calc(100% - 120px);
+    top: 35px;
+}
+
+
+.Header__text{
+    display: none;
+}
+
+.llamanos{
+    color: $color-purple;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px
+    
+}
+
+
+.numero{
+    display: none;
+}
