@@ -5,3 +5,5 @@ import App from './containers/App'
 import Logo from './components/Logo'
 
 ReactDOM.render(<App />, document.getElementById('App'));
+
+alert('hello master')
